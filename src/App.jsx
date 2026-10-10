@@ -34,170 +34,170 @@ import {
 } from 'lucide-react';
 
 const TRUST_PARTNERS = [
-  { name: 'OmniGlobal Health', metric: '+34% Operational Margin' },
-  { name: 'Vanguard FinTech', metric: '$420M Asset Restructure' },
-  { name: 'Aegis Industrial', metric: '6.4x Digital Throughput' },
-  { name: 'Quantix AI Labs', metric: 'Series-B Scaleup Partner' },
-  { name: 'Meridian Capital', metric: '99.8% Regulatory Audit' },
+  { name: 'Global Education Group', metric: '10,000+ Visas Approved' },
+  { name: 'Ivy League Connect', metric: '98% Admission Rate' },
+  { name: 'Future Abroad', metric: 'Top 500 Universities' },
+  { name: 'Immigration Experts', metric: 'Zero Rejection Record' },
+  { name: 'Pathway to PR', metric: '5,000+ PRs Secured' },
 ];
 
 const SERVICES_DATA = [
   {
-    id: 'management-consulting',
-    category: 'Operations',
-    title: 'Management & Operational Consulting',
-    shortDesc: 'Streamline departmental friction, overhaul workflows, and institutionalize high-efficiency operating frameworks.',
-    fullDesc: 'We diagnose structural bottlenecks across executive, human capital, and operational divisions to eliminate redundancies and engineer agile accountability frameworks.',
+    id: 'student-visa',
+    category: 'Education',
+    title: 'Student Visa & University Admissions',
+    shortDesc: 'End-to-end assistance with university selection, admissions, and student visa processing.',
+    fullDesc: 'We help you choose the right course and university across the globe. From application essays to interview preparation and visa filing, we ensure a seamless transition to your dream destination.',
     deliverables: [
-      'Comprehensive Org Health & Process Audit',
-      'Target Operating Model (TOM) Blueprint',
-      'Cross-functional Change Management Roadmap',
-      'Executive KPI Dashboards & Performance Metric Trees'
+      'University Selection & Profile Evaluation',
+      'SOP & LOR Writing Assistance',
+      'Scholarship & Financial Aid Guidance',
+      'Student Visa Filing & Interview Prep'
     ],
     timeline: '4 - 8 Weeks',
-    badge: 'Core Specialty',
-    impact: 'Avg. 28% overhead cost reduction'
+    badge: 'Most Popular',
+    impact: '98% Visa Success Rate'
   },
   {
-    id: 'digital-transformation',
-    category: 'Digital',
-    title: 'Enterprise Digital Transformation',
-    shortDesc: 'Modernize legacy infrastructure, automate manual workstreams, and deploy production-ready intelligent workflows.',
-    fullDesc: 'From cloud consolidation to AI-assisted data pipelines, we architect modern technology stacks that empower your team without operational disruption.',
+    id: 'work-permit',
+    category: 'Immigration',
+    title: 'Work Permits & Employer Sponsorships',
+    shortDesc: 'Secure international work permits and navigate complex employer sponsorship processes seamlessly.',
+    fullDesc: 'Whether you are a skilled professional or seeking an intra-company transfer, our immigration experts handle all documentation, legal compliance, and application filings for major destinations.',
     deliverables: [
-      'Legacy Tech Debt Evaluation & Modernization Stack',
-      'Cloud Architecture & Security Governance Plan',
-      'Autonomous Workflow Automation Implementation',
-      'Data Warehouse & Business Intelligence Pipeline'
+      'Eligibility Assessment & Profile Mapping',
+      'Labour Market Impact Assessment (LMIA) Support',
+      'Work Visa Filing & Documentation',
+      'Employer Sponsorship Consultation'
     ],
-    timeline: '6 - 12 Weeks',
+    timeline: '8 - 12 Weeks',
     badge: 'High Demand',
-    impact: '4x faster time-to-market for products'
+    impact: '5,000+ Careers Launched Abroad'
   },
   {
-    id: 'strategy-advisory',
-    category: 'Strategy',
-    title: 'Corporate Strategy & Market Advisory',
-    shortDesc: 'Data-driven market entry, M&A due diligence, and capital allocation strategies to dominate sector shifts.',
-    fullDesc: 'We equip C-suites and founders with rigorous empirical research, scenario testing, and risk-hedged strategic plans that ensure sustained market dominance.',
+    id: 'permanent-residency',
+    category: 'Immigration',
+    title: 'Permanent Residency (PR) Applications',
+    shortDesc: 'Comprehensive guidance for PR points-based systems, Express Entry, and state sponsorships.',
+    fullDesc: 'Navigating PR pathways can be complex. We analyze your profile to maximize your points and manage the entire filing process for countries like Canada, Australia, and the UK.',
     deliverables: [
-      'Total Addressable Market (TAM) Depth Analysis',
-      'Competitive Moat & Defensive Positioning Plan',
-      'M&A Target Feasibility & Synergies Valuation',
-      '5-Year Capital Allocation & Strategic Masterplan'
+      'Express Entry & Points Calculation',
+      'State/Provincial Nomination (PNP) Guidance',
+      'Document Translation & Verification',
+      'Full Application Representation'
     ],
-    timeline: '3 - 6 Weeks',
-    badge: 'Executive Level',
-    impact: '$1.4B cumulative client transaction value'
+    timeline: '6 - 12 Months',
+    badge: 'Life Changing',
+    impact: '10,000+ Families Settled'
   },
   {
-    id: 'financial-optimization',
-    category: 'Financial',
-    title: 'Financial Restructuring & Optimization',
-    shortDesc: 'Refine working capital, structure debt obligations, and unlock bottom-line profitability with forensic precision.',
-    fullDesc: 'Our certified financial strategists unearth hidden liquidity, renegotiate vendor matrices, and model cash-flow resilience against macro volatility.',
+    id: 'test-prep',
+    category: 'Training',
+    title: 'IELTS / PTE / TOEFL Preparation',
+    shortDesc: 'Achieve your target scores with our expert-led language proficiency coaching and mock tests.',
+    fullDesc: 'Language scores are crucial for your overseas journey. We offer intensive coaching, study materials, and rigorous mock tests tailored to help you clear IELTS, PTE, or TOEFL with flying colors.',
     deliverables: [
-      'Zero-Based Budgeting (ZBB) Restructuring',
-      'Cash Flow Sensitivity & Stress-Test Simulation',
-      'Procurement & Supply-Chain Unit Cost Audit',
-      'Pre-Audit Forensic Ledger Hygiene'
+      'Customized Study Plans & Crash Courses',
+      'One-on-one Speaking & Writing Feedback',
+      'Full-length Computer-based Mock Tests',
+      'Target Band Score Strategy'
     ],
-    timeline: '4 - 10 Weeks',
-    badge: 'High ROI',
-    impact: 'Typical 3.8x ROI on consulting fee'
+    timeline: '4 - 8 Weeks',
+    badge: 'Essential',
+    impact: 'Average Band Score: 7.5+'
   },
   {
-    id: 'esg-risk-governance',
-    category: 'Strategy',
-    title: 'Risk Governance & Regulatory Compliance',
-    shortDesc: 'Safeguard enterprise reputation, withstand stringent regulatory audits, and build bulletproof compliance frameworks.',
-    fullDesc: 'Proactive mitigation frameworks addressing multinational data privacy, cross-border trade guidelines, and internal whistleblowing channels.',
+    id: 'visitor-visa',
+    category: 'Travel',
+    title: 'Tourist & Visitor Visas',
+    shortDesc: 'Hassle-free tourist and visitor visa processing for vacations, family visits, or short business trips.',
+    fullDesc: 'We simplify the tourist visa process by organizing your itinerary, managing your financial documentation, and ensuring your application meets all consulate requirements to avoid rejections.',
     deliverables: [
-      'Multi-jurisdictional Regulatory Compliance Matrix',
-      'Enterprise Risk Management (ERM) Scorecard',
-      'Cybersecurity & Data Privacy Protocol Audit',
-      'Board-Level Contingency Drill Playbooks'
+      'Detailed Itinerary Planning',
+      'Financial Document Auditing',
+      'Visa Application Form Filling',
+      'Consulate Interview Preparation'
     ],
-    timeline: '3 - 5 Weeks',
-    badge: 'Protection',
-    impact: '100% compliance pass rate across 80+ audits'
+    timeline: '2 - 4 Weeks',
+    badge: 'Fast Track',
+    impact: '100% Client Satisfaction'
   },
   {
-    id: 'talent-leadership',
-    category: 'Operations',
-    title: 'Executive Leadership & Talent Architecture',
-    shortDesc: 'Align compensation packages, executive succession, and high-performance engineering incentives.',
-    fullDesc: 'Culture without metrics fails; metrics without culture burn out talent. We synthesize high-trust retention structures and succession systems.',
+    id: 'post-landing',
+    category: 'Settlement',
+    title: 'Post-Landing & Settlement Services',
+    shortDesc: 'Airport pickups, accommodation assistance, and banking setup to help you settle in your new country.',
+    fullDesc: 'Our support doesn’t end when you get your visa. We provide comprehensive on-ground support to ensure you transition smoothly into your new life abroad.',
     deliverables: [
-      'Executive Succession Matrix & Bench Strength Audit',
-      'Performance-Linked Equity & Bonus Architecture',
-      'Culture Pulse Diagnostics & Retention Strategies',
-      'High-Performance Leadership Training Workshops'
+      'Airport Pickup & Temporary Accommodation',
+      'Bank Account & SIM Card Setup',
+      'Local Registration & Tax ID Assistance',
+      'Job Search & Networking Guidance'
     ],
-    timeline: '4 - 6 Weeks',
-    badge: 'Human Capital',
-    impact: '42% decrease in senior talent churn'
+    timeline: 'Ongoing',
+    badge: 'Premium Care',
+    impact: 'Zero Settlement Hassles'
   }
 ];
 
 const TESTIMONIALS = [
   {
-    quote: 'White Stone Consultant rebuilt our operational pipeline within 90 days. We scaled from $18M ARR to $45M without increasing non-technical headcount. The precision was surgical.',
-    author: 'Elena Rostova',
-    role: 'Chief Operating Officer',
-    company: 'Novus Logistics Intl',
+    quote: 'White Stone Consultant made my dream of studying in Canada a reality. Their team guided me through every step, from university selection to my student visa approval.',
+    author: 'Priya Sharma',
+    role: 'International Student',
+    company: 'University of Toronto',
     rating: 5,
-    metrics: '+150% Operational Velocity',
+    metrics: 'Visa Approved in 3 Weeks',
     avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200'
   },
   {
-    quote: 'Their financial restructuring team uncovered $3.2M in annual procurement leakages in our first three weeks. The ROI on their advisory retainer paid for itself tenfold.',
-    author: 'Marcus Vance',
-    role: 'Chief Financial Officer',
-    company: 'Vanguard Industrial Group',
+    quote: 'The PR process for Australia seemed daunting until I met the experts at White Stone. They calculated my points accurately and handled the paperwork flawlessly.',
+    author: 'Rajiv Menon',
+    role: 'Software Engineer',
+    company: 'Sydney, Australia',
     rating: 5,
-    metrics: '$3.2M Annual Savings Found',
+    metrics: 'PR Granted (Subclass 189)',
     avatar: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200'
   },
   {
-    quote: 'Unlike traditional consulting giants that deliver 200-page slide decks and disappear, White Stone Consultant embedded into our teams and executed the actual digital roadmap.',
-    author: 'Dr. Sarah Chen',
-    role: 'VP of Technology & Strategy',
-    company: 'Apex Health Systems',
+    quote: 'I improved my IELTS score from 6.0 to 8.0 thanks to their excellent coaching program. Their mock tests and feedback were incredibly helpful.',
+    author: 'Sarah Khan',
+    role: 'Nursing Professional',
+    company: 'UK Work Visa Candidate',
     rating: 5,
-    metrics: 'System Downtime Reduced 94%',
+    metrics: 'Band 8.0 Achieved',
     avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200'
   }
 ];
 
 const FAQS = [
   {
-    q: 'How fast can a White Stone Consultant engagement team begin?',
-    a: 'Following our initial 30-minute discovery session and mutual NDA signature, our dedicated engagement partners can initiate discovery interviews and data ingestion within 3 to 5 business days.'
+    q: 'How long does the student visa process take?',
+    a: 'Once you have your university admission letter, the visa process typically takes 4 to 8 weeks depending on the country and embassy processing times. We recommend starting the process 3 months before your intake.'
   },
   {
-    q: 'What is your typical pricing structure and fee model?',
-    a: 'We operate on transparent, value-aligned milestones: Fixed-Scope Engagements with guaranteed deliverables, Monthly Advisory Retainers for C-Suite advisory, or Performance-Tied Incentive structures for qualified restructuring programs.'
+    q: 'Do you guarantee visa approval?',
+    a: 'While no consultant can guarantee a visa approval as the final decision rests with the embassy, our rigorous document checks and interview preparation ensure you have the highest possible chance of success (currently at 98%).'
   },
   {
-    q: 'How is proprietary client data and IP protected?',
-    a: 'We implement bilateral strict NDAs, zero-trust encrypted document rooms, and strict air-gapped data retention policies. We never reuse proprietary formulas or internal client documentation across competitive engagements.'
+    q: 'Which countries do you provide services for?',
+    a: 'We specialize in immigration, study, and work visas for top destinations including Canada, Australia, the UK, USA, New Zealand, and various European countries.'
   },
   {
-    q: 'What tangible deliverables will our team receive at completion?',
-    a: 'You receive comprehensive audit scorecards, ready-to-execute operational SOPs, interactive KPI dashboards, full executive summary decks, and 60 days of post-handover advisory check-ins.'
+    q: 'Do I need to clear IELTS/PTE to go abroad?',
+    a: 'Most English-speaking countries require a language proficiency test for study and work visas. However, some universities offer waivers based on your previous medium of education. We can assess your profile to give specific advice.'
   },
   {
-    q: 'Can White Stone Consultant assist with the actual execution or just strategy?',
-    a: 'We are hands-on operators. While we author high-level strategic blueprints, our senior engagement leads work side-by-side with your teams to manage the implementation and overcome roadblock resistance.'
+    q: 'Can you help with post-landing services?',
+    a: 'Absolutely. We offer premium post-landing support including airport pickups, finding temporary accommodation, and assisting with basic setups like bank accounts and tax registrations.'
   }
 ];
 
 const MILESTONES = [
-  { year: '2016', title: 'Firm Inception', desc: 'Founded by former Tier-1 senior partners with a mission to eliminate consulting fluff.' },
-  { year: '2019', title: 'Global Expansion', desc: 'Established secondary advisory presence in London, facilitating transatlantic cross-border M&A.' },
-  { year: '2022', title: 'Digital & AI Practice', desc: 'Inaugurated dedicated enterprise data intelligence and algorithmic workflow arm.' },
-  { year: '2025', title: '$1B+ Client Milestone', desc: 'Surpassed over $1.2B in verified measurable EBITDA improvements across 280+ clients.' }
+  { year: '2016', title: 'Agency Inception', desc: 'Founded with a mission to provide transparent, honest, and ethical immigration advice.' },
+  { year: '2019', title: 'Global Tie-ups', desc: 'Partnered with over 500+ top universities and colleges across the globe.' },
+  { year: '2022', title: 'IELTS/PTE Division', desc: 'Launched our in-house language training academy to provide end-to-end support.' },
+  { year: '2025', title: '10,000+ Success Stories', desc: 'Successfully guided over 10,000 clients to their dream destinations for study, work, and settlement.' }
 ];
 
 function Navbar({ activePage, setActivePage, onOpenConsultation }) {
@@ -1037,7 +1037,7 @@ function AboutPage({ onOpenConsultation }) {
     },
     {
       name: 'Tariq Al-Mansoor',
-      role: 'Director of Digital Transformation',
+      role: 'Director of Immigration & PR',
       bio: 'Cloud and AI architect who previously scaled enterprise SaaS platforms from series A to multi-billion IPO filings.',
       img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300'
     }
